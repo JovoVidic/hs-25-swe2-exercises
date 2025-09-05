@@ -9,6 +9,7 @@ public class Person {
     private final Address address;
     private final int age;
     private final boolean hasPet;
+    private final boolean test;
 
     public Person(String firstName, String lastName, Address address, int age, boolean hasPet) {
         this.firstName = firstName;
