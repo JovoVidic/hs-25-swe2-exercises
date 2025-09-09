@@ -56,8 +56,7 @@ git push origin main
 
 ## Beispiel (kompakt):
 
-git checkout main
-git pull origin main
-git merge aufgabe
-git push origin main
-
+- git checkout main
+- git pull origin main
+- git merge aufgabe
+- git push origin main
