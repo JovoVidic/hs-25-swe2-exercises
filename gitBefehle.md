@@ -25,7 +25,7 @@ git push origin <branch-name>
 
 ## 6. Branches anzeigen
 
-git branch
+git branch <branch-name>
 
 ## 7. Zu einem bestehenden Branch wechseln:
 
