@@ -86,3 +86,5 @@ git push origin main
 - git merge "branch-name"
 - git push origin main
 >>>>>>> branch 'aufgabenExercise' of https://github.com/JovoVidic/hs-25-swe2-exercises.git
+
+## Nur der test der Datei
