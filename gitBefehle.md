@@ -61,5 +61,5 @@ git push origin main
 - git push origin main
 - git merge "branch-name"
 - git push origin main
->>>>>>> branch 'aufga
-## Nur der test der Datei
+
+## vrijeme:1056
