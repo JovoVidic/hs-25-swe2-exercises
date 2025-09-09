@@ -36,7 +36,7 @@ git checkout <branch-name>
 git branch <branch-name>
 
 
-# Aenderung von <branch-name> in main mergen
+# Aenderung von 'branch-name' in main mergen
 
 ## 1. Zum Ziel wechseln
 
