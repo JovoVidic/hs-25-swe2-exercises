@@ -2,7 +2,6 @@
 
 Dieser Spickzettel zeigt die wichtigsten Git-Befehle im Terminal mit kurzen Erklärungen. Ideal für Einsteiger und als Nachschlagewerk.
 
----
 
 ## 1. Status prüfen
 
@@ -12,15 +11,15 @@ git status
 
 git add <Datei Name>.
 
-# 3. Commit erstellen
+## 3. Commit erstellen
 
 git commit -m "Meine Änderungen, freier Textbaustein"
 
-# 4. Neueste Änderungen vom Remote holen
+## 4. Neueste Änderungen vom Remote holen
 
 git pull origin <branch-name>
 
-# 5. Änderungen hochladen
+## 5. Änderungen hochladen
 
 git push origin <branch-name>
 
@@ -35,3 +34,30 @@ git checkout <branch-name>
 ## 8. Neuen Branch erstellen
 
 git branch <branch-name>
+
+
+# Aenderung von <branch-name> in main mergen
+
+## 1. Zum Ziel wechseln
+
+git checkout main
+
+## 2. Neuste Änderungen vom Remote holen (optional aber empfohlen)
+
+git pull origin main
+
+## 3. Merge ausführen
+
+git merge <branch-name>
+
+## 4. Nach erfolgreichem Merge → Push zu Remote
+
+git push origin main
+
+## Beispiel (kompakt):
+
+git checkout main
+git pull origin main
+git merge aufgabe
+git push origin main
+
