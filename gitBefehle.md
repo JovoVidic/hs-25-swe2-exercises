@@ -58,5 +58,5 @@ git push origin main
 
 - git checkout main
 - git pull origin main
-- git merge <branch-name>
+- git merge 'branch-name'
 - git push origin main
