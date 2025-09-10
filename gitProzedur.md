@@ -39,13 +39,25 @@ git push origin Vxy
 - Dein Branch Vxy mit den Änderungen ist jetzt auf dem zentralen Server (GitHub/GitLab/etc.).
 - main bleibt davon unberührt.
 
-## Optional: Schritt 7: Merge in main
+## Schritt 7 (Optional): Änderungen aus Branch `Vxy` in `main` mergen
 
-- Entweder du machst lokal den Merge und pushst main:
+Nachdem du deine Änderungen im Branch `Vxy` erfolgreich gepusht hast, kannst du sie in den `main`-Branch übernehmen. Dafür gibt es zwei Möglichkeiten:
 
+---
+
+### 🔁 Möglichkeit A: Merge lokal durchführen und pushen
+
+Führe den Merge auf deinem lokalen Rechner aus und lade die aktualisierte `main`-Version ins Remote-Repository hoch.
+
+
+1. Zurück zum main-Branch wechseln <br>
 git checkout main
-git pull origin main          # Hol aktuelle main-Version vom Server
-git merge Vxy                 # Merge Vxy in main
-git push origin main          # Push den neuen main-Stand
 
-- Oder du machst einen Pull Request (PR) im Web-Interface und lässt dort mergen.
+2. Aktuelle Version von main vom Server holen <br>
+git pull origin main
+
+3. Branch Vxy in main mergen <br>
+git merge Vxy
+
+4. Aktualisierten main-Branch pushen <br>
+git push origin main
