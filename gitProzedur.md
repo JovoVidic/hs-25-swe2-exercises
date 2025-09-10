@@ -2,7 +2,7 @@
 
 ## Schritt 1: Repository klonen (einmalig)
 
-git clone https://github.com/dein-benutzername/dein-projekt.git
+git clone https://github.com/dein-benutzername/dein-projekt.git <br>
 cd dein-projekt
 
 ## Schritt 2: Neuen Branch Vxy erstellen und wechseln
