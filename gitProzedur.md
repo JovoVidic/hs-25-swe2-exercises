@@ -42,10 +42,6 @@ cd dein-projekt
 
 ## Schritt 7 (Optional): Änderungen aus Branch `Vxy` in `main` mergen
 
-Dafür gibt es zwei Möglichkeiten:
-
-### 🔁 Möglichkeit A: Merge lokal durchführen und pushen
-
 Führe den Merge auf deinem lokalen Rechner aus und lade die aktualisierte `main`-Version ins Remote-Repository hoch.
 
 1. Zurück zum main-Branch wechseln <br>
